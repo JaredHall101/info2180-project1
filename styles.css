@@ -41,3 +41,44 @@ li a:hover {
 }
 
 
+.cards{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.card {
+    padding: 10px;
+    margin-right: 20px;
+    border: #E2E8F0;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow:  4px 5px #888888;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+}
+
+.testing .container {
+    display: grid;
+    grid-template-columns: 70% auto;
+    max-width: fit-content;
+    height: 300px;
+    place-items: center;
+}
+
+.testing-desciption {
+    margin-left: 200px;
+}
+
+.cta{
+    margin-top: 40px;
+}
+.cta a{
+    color: white;
+    text-decoration: none;
+    background-color: #48BB78;
+    border-radius: 5px;
+    padding: 17px;
+}
