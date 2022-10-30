@@ -27,5 +27,17 @@ ul{
 }
 
 li a:hover {
-    color: #05cb20;
+    color: #2905cb;
 }
+
+.overview-hero .container{
+    display: flex;
+    align-items: center;
+}
+
+.overview-hero-image{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
